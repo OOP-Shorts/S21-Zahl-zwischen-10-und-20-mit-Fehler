@@ -10,16 +10,14 @@ public class NumValuesBetweenBorder {
     }
 
     public static int countNumbersBetweenBorder(int[] values, int[] border) {
-        int counter = 0;
         for(int value : values){
-            if(isBetween(value, border)){
+            if(isBetween(values, border)){
                 counter++;
             }
         }
-        return counter;
     }
 
-    public static boolean isBetween(int value, int[] border) {
+    public static void isBetween(int value, int[] border) {
         return (value >= border[0] && value <= border[1]);
     }
 
