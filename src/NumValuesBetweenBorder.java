@@ -1,4 +1,4 @@
-public class NumValuesLessThanTen {
+public class NumValuesBetweenBorder {
 
     public static void main(String[] args) {
         int[] testArray = {23, 5, 17, 98, 19, 10, 62, 13, 4, -10, -3, 14, 20};
